@@ -1,0 +1,1 @@
+from src.app import app  # re-use the FastAPI app defined in src/app.py

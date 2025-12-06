@@ -15,6 +15,12 @@ app = FastAPI(
     version="1.0.0",
 )
 
+@app.get("/")
+def root():
+    return {
+        "message": "COM774 CW2 API is running. See /health and /docs."
+    }
+
 # ---- Global model state ----
 MODEL_LABEL = "best"
 model = None           # will be loaded on startup

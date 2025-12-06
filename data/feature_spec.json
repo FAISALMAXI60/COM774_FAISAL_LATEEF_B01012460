@@ -1,0 +1,41 @@
+{
+  "target": "success",
+  "features": {
+    "numeric": [
+      "files_changed",
+      "lines_added",
+      "lines_deleted",
+      "churn",
+      "test_count",
+      "test_failures",
+      "coverage",
+      "pipeline_duration_s",
+      "jobs_total",
+      "message_length",
+      "prev_7d_failure_rate",
+      "prev_30d_failure_rate",
+      "flaky_tests_count",
+      "infra_alerts_count",
+      "artifact_size_mb",
+      "cache_hit_rate",
+      "security_alerts_count",
+      "hour",
+      "churn_per_file",
+      "test_fail_rate",
+      "author_experience_log"
+    ],
+    "categorical": [
+      "repo",
+      "trigger",
+      "runner_os",
+      "day_of_week",
+      "author"
+    ],
+    "binary": [
+      "had_hotfix_keyword",
+      "dependency_updates",
+      "is_weekend"
+    ]
+  },
+  "leakage_notice": "Avoid post-run fields (e.g., jobs_failed) for pre-run prediction in CW2."
+}

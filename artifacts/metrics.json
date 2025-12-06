@@ -1,0 +1,15 @@
+{
+  "baseline": {
+    "accuracy": 0.75,
+    "f1": 0.8546511627906976,
+    "roc_auc": 0.522097580754156,
+    "report": "              precision    recall  f1-score   support\n\n           0      0.429     0.061     0.107        49\n           1      0.762     0.974     0.855       151\n\n    accuracy                          0.750       200\n   macro avg      0.595     0.517     0.481       200\nweighted avg      0.680     0.750     0.672       200\n"
+  },
+  "improved": {
+    "accuracy": 0.76,
+    "f1": 0.8628571428571429,
+    "roc_auc": 0.49493174753345043,
+    "report": "              precision    recall  f1-score   support\n\n           0      1.000     0.020     0.040        49\n           1      0.759     1.000     0.863       151\n\n    accuracy                          0.760       200\n   macro avg      0.879     0.510     0.451       200\nweighted avg      0.818     0.760     0.661       200\n"
+  },
+  "selected": "improved"
+}

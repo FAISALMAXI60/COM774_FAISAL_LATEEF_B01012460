@@ -5,6 +5,7 @@ from pathlib import Path
 import pandas as pd
 import requests
 
+
 root = Path(__file__).resolve().parent
 features_path = root / "data" / "features_scaled.csv"
 

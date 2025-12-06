@@ -28,7 +28,7 @@ jobs:
         env:
           PYTHONPATH: .
         run: |
-          pytest -q
+          pytest tests/ -q
 
       - name: Train model and check metrics
         env:
